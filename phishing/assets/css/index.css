@@ -5,6 +5,7 @@ body {
     padding-top: 60px;
     margin-left: 20%;
     margin-right: 20%;
+    
 }
 
 a {
@@ -37,7 +38,7 @@ h1 {
 
 /* Header */
 #header {
-    background: linear-gradient(-178deg, #0400ff, #ff0000);
+    background: linear-gradient(-178deg, #3900DF, #700199);
     padding: 10px 0;
     position: fixed;
     width: 100%;
@@ -124,7 +125,7 @@ h1 {
 
 /*Box do footer*/
 #footer {
-    background: linear-gradient(-178deg, #0400ff, #ff0000);
+    background: linear-gradient(-178deg, #3900DF, #700199);
     padding: 10px 0;
     width: 100%;
     top: 0;
@@ -133,6 +134,7 @@ h1 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
+    
 }
 
 #footer-elements {
