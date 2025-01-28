@@ -1,10 +1,11 @@
 /* Body ajustes */
 body {
-    margin: 0;
-    padding: 0;
-    padding-top: 60px;
-    margin-left: 20%;
-    margin-right: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    min-height: 100vh;      
+    margin: 0; 
     
 }
 
@@ -106,8 +107,8 @@ h1 {
     justify-content: center;
     margin: 50px;
     position: relative;
-    margin-top: 100px;
-    margin-bottom: 80px;
+    margin-top: 120px;
+    margin-bottom: 70px;
 
 }
 
@@ -128,8 +129,6 @@ h1 {
     background: linear-gradient(-178deg, #3900DF, #700199);
     padding: 10px 0;
     width: 100%;
-    top: 0;
-    left: 0;
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     border-top-left-radius: 7px;
